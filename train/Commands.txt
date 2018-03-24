@@ -1,0 +1,13 @@
+Commands
+=========
+
+https://github.com/thtrieu/darkflow
+
+
+
+Train
+=====
+
+flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolo-voc.weights --train --annotation train/Annotations --dataset train/Images
+
+python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolo-voc.weights --train --annotation Custom_Model\annotations --dataset Custom_Model\images

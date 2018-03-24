@@ -1,0 +1,22 @@
+<annotation>
+  <folder>Images</folder>
+  <filename>000014.png</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>224</width>
+    <height>224</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>hdmi_male</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55</xmin>
+      <ymin>48</ymin>
+      <xmax>189</xmax>
+      <ymax>191</ymax>
+    </bndbox>
+  </object>
+</annotation>
