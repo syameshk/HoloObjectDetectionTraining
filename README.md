@@ -12,15 +12,15 @@ Tensorflow CPU
 
 openCV (https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
-## Step 1 - Download the Darkflow repo
+Took files from Darkflow repo 
 https://github.com/thtrieu/darkflow
 
 extract the files in the root folder
 
-## Step 2 - Build the library
+## Step 1 - Build the library
 python setup.py build_ext --inplace
 
-## Step 3 - Download a weights file
+## Step 2 - Download a weights file
 Download the YOLOv2 608x608 weights file here (https://pjreddie.com/darknet/yolo/)
 
 NOTE: there are other weights files you can try if you like
