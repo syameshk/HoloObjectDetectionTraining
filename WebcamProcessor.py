@@ -1,11 +1,20 @@
 import cv2
-from darkflow-master.darkflow.net.build import TFNet
+from darkflow.net.build import TFNet
 import numpy as np
 import time
 
+'''
 options={
-	'model':'darkflow-master/cfg/tiny-yolo-voc.cfg',
-	'load': 'darkflow-master/bin/tiny-yolo-voc.weights',
+	'model':'cfg/tiny-yolo-voc.cfg',
+	'load': 'bin/tiny-yolo-voc.weights',
+	'threshold': 0.15
+
+}
+'''
+
+options={
+	'model':'cfg/tiny-yolo-voc-1c.cfg',
+	'load': 500,
 	'threshold': 0.15
 
 }
