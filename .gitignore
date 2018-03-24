@@ -100,3 +100,4 @@ ENV/
 
 # ignore the darkflow-master folder
 darkflow-master/
+darkflow_master/
