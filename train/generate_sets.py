@@ -3,6 +3,7 @@ import glob
 
 # Image containing folder
 path = 'Images'
+filter_ext = '*.png'
 
 # Directory where the data will reside, relative to 'darknet.exe'
 path_data = 'data/obj/'
@@ -17,7 +18,7 @@ file_test = open('test.txt', 'w+')
 # Populate train.txt and test.txt
 counter = 1
 index = round(100 / percentage)  
-for filename in glob.glob(os.path.join(path, '*.png')):
+for filename in glob.glob(os.path.join(path, filter_ext)):
 	title, ext = os.path.splitext(os.path.basename(filename))
 
 	if counter == index:
