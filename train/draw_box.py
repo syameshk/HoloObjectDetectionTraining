@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 from matplotlib.widgets import RectangleSelector
 from generate_xml import write_xml
+from generate_txt import write_txt
 
 # global constants
 img = None
@@ -33,6 +34,7 @@ def onkeypress(event):
 	if event.key == 'q':
 		print(object_list)
 		write_xml(image_folder, img, object_list, tl_list, br_list, savedir)
+		write_txt(image_folder, img, object_list, tl_list, br_list, savedir)
 		tl_list = []
 		br_list = []
 		object_list = []

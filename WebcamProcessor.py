@@ -3,21 +3,22 @@ from darkflow.net.build import TFNet
 import numpy as np
 import time
 
-'''
+
 options={
-	'model':'cfg/tiny-yolo-voc.cfg',
-	'load': 'bin/tiny-yolo-voc.weights',
+	'model':'cfg/tiny-yolo-voc-1c.cfg',
+	'load': 'bin/tiny-yolo-voc-1c.weights',
 	'threshold': 0.15
 
 }
-'''
 
+'''
 options={
 	'model':'cfg/tiny-yolo-voc-1c.cfg',
 	'load': 500,
 	'threshold': 0.15
 
 }
+'''
 
 
 tfnet = TFNet(options)
