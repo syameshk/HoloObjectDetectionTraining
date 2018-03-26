@@ -14,6 +14,7 @@ object_list = []
 # constants
 image_folder = 'Images'
 savedir = 'Annotations'
+label_folder = 'labels'
 obj = 'hdmi_male'
 
 
@@ -34,7 +35,7 @@ def onkeypress(event):
 	if event.key == 'q':
 		print(object_list)
 		write_xml(image_folder, img, object_list, tl_list, br_list, savedir)
-		write_txt(image_folder, img, object_list, tl_list, br_list, savedir)
+		write_txt(image_folder, img, object_list, tl_list, br_list, label_folder)
 		tl_list = []
 		br_list = []
 		object_list = []

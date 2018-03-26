@@ -19,14 +19,24 @@ file_test = open('test.txt', 'w+')
 counter = 1
 index = round(100 / percentage)  
 for filename in glob.glob(os.path.join(path, filter_ext)):
-	title, ext = os.path.splitext(os.path.basename(filename))
+	#print (os.path.abspath(filename))
 
+	if counter == index:
+		counter = 1
+		file_test.write(os.path.abspath(filename) + "\n")
+	else:
+		file_train.write(os.path.abspath(filename) + "\n")
+		counter = counter + 1
+
+	'''
+	title, ext = os.path.splitext(os.path.basename(filename))
 	if counter == index:
 		counter = 1
 		file_test.write(path_data + title + ext + "\n")
 	else:
 		file_train.write(path_data + title + ext + "\n")
 		counter = counter + 1
+	'''
 
 '''
 import glob, os
