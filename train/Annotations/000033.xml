@@ -13,34 +13,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>46</xmin>
-      <ymin>78</ymin>
-      <xmax>128</xmax>
-      <ymax>144</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>hdmi_male</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>116</xmin>
-      <ymin>170</ymin>
-      <xmax>167</xmax>
-      <ymax>222</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>hdmi_male</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>60</xmin>
-      <ymin>13</ymin>
-      <xmax>186</xmax>
-      <ymax>128</ymax>
+      <xmin>70</xmin>
+      <ymin>18</ymin>
+      <xmax>160</xmax>
+      <ymax>126</ymax>
     </bndbox>
   </object>
 </annotation>

@@ -7,4 +7,16 @@
     <height>224</height>
     <depth>3</depth>
   </size>
+  <object>
+    <name>hdmi_male</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>48</xmin>
+      <ymin>52</ymin>
+      <xmax>114</xmax>
+      <ymax>112</ymax>
+    </bndbox>
+  </object>
 </annotation>
