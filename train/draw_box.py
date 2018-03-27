@@ -1,4 +1,5 @@
 import os
+import platform
 import matplotlib.pyplot as plt
 import cv2
 from matplotlib.widgets import RectangleSelector
@@ -52,7 +53,9 @@ if __name__ == '__main__':
 		img = image_file
 		fig, ax = plt.subplots(1, figsize=(10.5, 8))
 		mngr = plt.get_current_fig_manager()
-		mngr.window.setGeometry(250, 40, 800, 600)
+		#For some reason following line doesn't work on mac
+		if platform.system() == 'Windows':
+			mngr.window.setGeometry(250, 40, 800, 600)
 		image = cv2.imread(image_file.path)
 		#convert color: cv2 gives BGR and  matplotlib needs RGB
 		image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)

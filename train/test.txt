@@ -1,4 +1,4 @@
-C:\Users\skunnummal\Documents\GitHub\HoloObjectDetectionTraining\train\Images\000009.png
-C:\Users\skunnummal\Documents\GitHub\HoloObjectDetectionTraining\train\Images\000019.png
-C:\Users\skunnummal\Documents\GitHub\HoloObjectDetectionTraining\train\Images\000029.png
-C:\Users\skunnummal\Documents\GitHub\HoloObjectDetectionTraining\train\Images\000039.png
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000009.png
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000019.png
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000029.png
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000039.png
