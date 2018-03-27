@@ -1,0 +1,6 @@
+classes = 1
+train  = /Users/test/Desktop/Syam/darknet/train/train.txt
+valid  = /Users/test/Desktop/Syam/darknet/train/test.txt
+names = train/voc.names
+backup = backup
+
