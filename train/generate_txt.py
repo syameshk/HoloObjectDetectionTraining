@@ -1,6 +1,20 @@
 import os
 import cv2
 
+def write_txt(cls_id, img, objects, tl, br, savedir):
+	if not os.path.isdir(savedir):
+		os.mkdir(savedir)
+	image = cv2.imread(img.path)
+	height, width, depth = image.shape
+
+	#save_path = os.path.join(savedir, img.name.replace('png', 'txt'))
+	save_path = os.path.join(savedir, img.name.split('.')[0]+'.txt')
+
+	with open(save_path, 'w+') as temp_txt:
+		for obj, topl, botr in zip(objects, tl, br):
+			x,y,h,w = convert(topl,botr,height,width, depth)
+			temp_txt.write(str(cls_id) + ' ' + str(x) + ' ' + str(y) + ' ' + str(h) + ' ' + str(w) +'\n')
+'''
 def write_txt(folder, img, objects, tl, br, savedir):
 	if not os.path.isdir(savedir):
 		os.mkdir(savedir)
@@ -15,7 +29,7 @@ def write_txt(folder, img, objects, tl, br, savedir):
 			x,y,h,w = convert(topl,botr,height,width, depth)
 			temp_txt.write(str(cls_id) + ' ' + str(x) + ' ' + str(y) + ' ' + str(h) + ' ' + str(w) +'\n')
 
-
+'''
 #[category number] [object center in X] [object center in Y] [object width in X] [object width in Y]
 def convert(topLeft, bottomRight, height, width, depth):
 	

@@ -1,4 +1,3 @@
-/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000009.png
-/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000019.png
-/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000029.png
-/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/000039.png
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/fire_extinggusher/IMG_0283.jpg
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/fire_extinggusher/IMG_0307.jpg
+/Users/test/Desktop/Syam/HoloObjectDetectionTraining/train/Images/plant_office/IMG_0259.jpg
